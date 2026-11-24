@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  max-width: 400px;
+
+  &__title {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  &__text {
+    margin-bottom: var(--spacing-md);
+    color: #4b5563;
+  }
+}
