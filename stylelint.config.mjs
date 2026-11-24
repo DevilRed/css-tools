@@ -7,8 +7,8 @@ export default {
   ],
   plugins: ["stylelint-order"],
   rules: {
-    "declaration-block-trailing-semicolon": "always",
-    "no-extra-semicolons": true,
+    // "declaration-block-trailing-semicolon": "always",
+    // "no-extra-semicolons": true,
     "declaration-no-important": true,
     "property-no-vendor-prefix": true,
 

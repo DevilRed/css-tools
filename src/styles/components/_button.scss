@@ -3,16 +3,16 @@
   align-items: center;
   justify-content: center;
   padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--radius-md);
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease;
   border: none;
+  border-radius: var(--radius-md);
+  transition: background-color 0.2s ease;
 
   /* Modifier */
   &--primary {
-    background-color: var(--color-primary);
     color: var(--color-white);
+    background-color: var(--color-primary);
 
     &:hover {
       background-color: var(--color-primary-hover);

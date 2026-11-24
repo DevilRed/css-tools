@@ -1,13 +1,13 @@
 .card {
-  background-color: var(--color-white);
+  max-width: 400px;
   padding: var(--spacing-lg);
+  background-color: var(--color-white);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  max-width: 400px;
 
   &__title {
-    font-size: 1.25rem;
     margin-bottom: var(--spacing-sm);
+    font-size: 1.25rem;
   }
 
   &__text {
